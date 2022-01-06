@@ -3,7 +3,9 @@
     padding: 0;
 
 }
-html, body {
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -39,7 +41,7 @@ html, body {
 .s-d1-div {
     font-size: 30px;
     padding-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', ;
     border-left: 3px solid rgba(240, 92, 7, 0.952);
     border-radius: 2px;
 
@@ -94,7 +96,7 @@ h2 {
     text-align: center;
     font-size: 45px;
     color: rgb(8, 8, 8);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', ;
 }
 
 h2 span {
@@ -119,7 +121,7 @@ h2 span {
     text-align: center;
     font-size: 18px;
     border: 2px solid white;
-    border-radius: 0px 55px 0px 55px;
+    border-radius: 0px 65px 0px 65px;
 
 
 }
@@ -142,7 +144,7 @@ h2 span {
     text-align: center;
     font-size: 18px;
     border: 2px solid white;
-    border-radius: 0px 55px 0px 55px;
+    border-radius: 0px 65px 0px 65px;
 
 
 
@@ -167,7 +169,7 @@ h2 span {
     text-align: center;
     font-size: 18px;
     border: 2px solid white;
-    border-radius: 0px 55px 0px 55px;
+    border-radius: 0px 65px 0px 65px;
 
 }
 
@@ -181,7 +183,7 @@ h2 span {
     font-family: serif;
 }
 
-/* .......(Md Habib)..........section--- 3-- all css value ........... */
+/* ....................(Md Habib)..........section--- 3-- all css value ........... */
 
 .sec-3 {
     width: 100%;
@@ -191,51 +193,60 @@ h2 span {
     margin-top: 50px;
 
 }
-.sec3-div1{
- width: 40%;
+
+.sec3-div1 {
+    width: 40%;
 
 }
-.sec3-div1 img{
-    width:80% ;
+
+.sec3-div1 img {
+    width: 80%;
     height: 300px;
     border: 2px solid rgb(38, 202, 243);
     border-radius: 40px;
 }
-.sec3-div2{
+
+.sec3-div2 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-   
+
 }
-.sec3-div2 h3{
+
+.sec3-div2 h3 {
     font-size: 35px;
-    font-family: 'Gill Sans', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #11B0FB;
 }
-.sec3-div2 p{
+
+.sec3-div2 p {
     padding: 20px;
     padding-left: 0px;
     text-align: left;
     padding-right: 40px;
     color: rgb(177, 177, 112);
 }
-.btn2{
+
+.btn2 {
     padding: 10px;
     background-color: #1faef0;
     border: 1px solid black;
     border-radius: 7px;
 
 }
-.btn2:hover{
+
+.btn2:hover {
     background-color: rgb(241, 97, 0);
     transition: .7s;
 }
-.btn2 a{
+
+.btn2 a {
     text-decoration: none;
     color: white;
     padding: 10px 5px;
 }
-/*.........Md habib.........section 4 all css value............*/
-.sec-4{
+
+/*..............................Md habib.........section 4 all css value............*/
+.sec-4 {
     width: 100%;
     height: 320px;
     margin: 90px;
@@ -244,52 +255,108 @@ h2 span {
 
 
 
-.sec4-div1{
+.sec4-div1 {
     text-align: left;
     width: 50%;
 }
-.sec4-div1 h4{
+
+.sec4-div1 h4 {
     font-size: 35px;
 }
-.sec4-div1 h4 span{
-    color:#236786 ;
+
+.sec4-div1 h4 span {
+    color: #236786;
 }
-.sec4-div1 p{
+
+.sec4-div1 p {
     padding: 15px;
     font-size: 20px;
     padding-left: 0px;
     text-align: justify;
     color: rgb(200, 123, 202);
 }
-.sec4-div2{
+
+.sec4-div2 {
     width: 40%;
     text-align: left;
-   margin-left: 0px;
+    margin-left: 0px;
 }
-.sec4-div2 img{
+
+.sec4-div2 img {
     width: 80%;
     height: 300px;
     float: left;
     border: 2px solid rgb(52, 184, 245);
     border-radius: 35px;
-   
-}
-/*...........md habib....section 5........all css value...................*/
 
-.sec-5{
+}
+
+/*......................md habib....section 5........all css value...................*/
+
+.sec-5 {
     width: 100%;
     height: 500px;
-    background-color: rgba(151, 213, 241, 0.747);
+    background-color: rgba(187, 238, 214, 0.651);
+    position: relative;
+
+
+
 }
-/*..........................footer......................*/
-footer{
+
+.contract {
+    max-width: 300px;
+    background-color: rgb(220, 241, 189);
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    box-sizing: border-box;
+    padding: 40px 50px;
+    border: 2px solid rgb(3, 179, 223);
+    border-radius: 0px 50px 50px 50px;
+
+}
+
+h6 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(3, 179, 223);
+}
+
+.cont-form label {
+    font-size: 20px;
+    color: rgb(20, 145, 177);
+
+}
+
+.b6 {
+    margin-top: 20px;
+}
+
+.b6 a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: seashell;
+    background-color: rgba(9, 167, 240, 0.904);
+    border: 1px solid black;
+    border-radius: 8px;
+
+}
+
+.b6 a:hover {
+    background-color: blanchedalmond;
+    color: rgb(24, 140, 248);
+    transition: 0.7s;
+}
+
+
+/*...........................................footer..............................*/
+footer {
     width: 100%;
     height: 25px;
     padding: 15px;
-   
+
     background-color: rgba(5, 4, 4, 0.904);
     text-align: center;
     color: white;
-    
-}
 
+}
